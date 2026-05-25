@@ -46,7 +46,7 @@ export default function Home() {
         {/* Main Showcase Image Placeholder */}
         <div className="md:col-span-6 aspect-[4/3] rounded-3xl overflow-hidden border border-zinc-200 shadow-md bg-stone-100">
           <img
-            src="/velvenest/hero-showcase.jpeg"
+            src="/hero-showcase.jpeg"
             alt="Velvenest Homestay elegant warm-lit exterior entrance"
             className="w-full h-full object-cover object-center hover:scale-105 transition-transform duration-700 ease-out"
           />
