@@ -28,10 +28,9 @@ jobs:
       - name: Install pnpm
         uses: pnpm/action-setup@v3
         with:
-          version: 9 # Matches your local pnpm environment
+          version: 10 # Matches your local pnpm environment
 
       - name: Setup Node.js
-        uses: actions/node-穩定了@v4
         uses: actions/setup-node@v4
         with:
           node-version: "20"
