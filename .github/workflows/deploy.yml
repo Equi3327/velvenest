@@ -4,6 +4,11 @@ on:
   push:
     branches: ["main"] # Triggers the action every time you push to the main branch
 
+    
+# Fixes the Node 20 deprecation warning by forcing the runner to use Node 24 environment settings
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
   contents: read
@@ -33,7 +38,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "24"
           cache: "pnpm"
 
       - name: Install Dependencies
