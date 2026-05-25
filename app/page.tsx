@@ -4,6 +4,10 @@ export const metadata: Metadata = {
   title: 'Velvenest | Premium Boutique Homestay & Retreat',
   description: 'Escape to Velvenest—a curated boutique homestay offering a luxurious, cozy sanctuary. Experience premium comfort, breathtaking local scenery, and serene spaces.',
   keywords: ['Velvenest', 'boutique homestay', 'luxury villa rental', 'cozy retreat', 'premium stay'],
+  icons: {
+    icon: '/favicon.png',
+    apple: '/favicon.png',
+  },
 };
 
 export default function Home() {
