@@ -4,10 +4,6 @@ export const metadata: Metadata = {
   title: 'Velvenest | Premium Boutique Homestay & Retreat',
   description: 'Escape to Velvenest—a curated boutique homestay offering a luxurious, cozy sanctuary. Experience premium comfort, breathtaking local scenery, and serene spaces.',
   keywords: ['Velvenest', 'boutique homestay', 'luxury villa rental', 'cozy retreat', 'premium stay'],
-  icons: {
-    icon: '/favicon.png',
-    apple: '/favicon.png',
-  },
 };
 
 export default function Home() {
@@ -144,7 +140,15 @@ export default function Home() {
         </div>
 
         <p className="text-xs text-zinc-400">
-          📍 Located inside the historical district. <a href="https://maps.google.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-zinc-600">Open in Google Maps</a>
+          📍 Location.{' '}
+          <a
+            href="https://www.google.com/maps/place/30%C2%B022'18.5%22N+77%C2%B053'07.9%22E/@30.3718152,77.8829592,17z/data=!3m1!4b1!4m4!3m3!8m2!3d30.3718152!4d77.8855341?hl=en&entry=ttu&g_ep=EgoyMDI2MDUyMC4wIKXMDSoASAFQAw%3D%3D"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline hover:text-zinc-600 transition-colors"
+          >
+            Open in Google Maps
+          </a>
         </p>
       </section>
 
